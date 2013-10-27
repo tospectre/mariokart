@@ -5,7 +5,7 @@
 ## Login   <fhaiem_r@epitech.net>
 ## 
 ## Started on  Fri Oct 25 18:13:40 2013 rachid
-## Last update Fri Oct 25 19:24:05 2013 rachid
+## Last update Sun Oct 27 18:50:19 2013 rachid
 ##
 
 NAME	= $(BINDIR)/MarioKart
@@ -20,19 +20,21 @@ CFLAGS	+= -I./includes
 
 LDFLAGS	= -lmy
 LDFLAGS	+= -L./sources/lib
-LDFLAGS	+= -ggdb3
 
 SRCDIR	= ./sources/
 
 SRCS	= $(SRCDIR)marios.c\
-	$(SRCDIR)map.c
+	$(SRCDIR)map.c\
+	$(SRCDIR)check_param.c
+
+OBJS	= $(SRCS:.c=.o)
 
 BINDIR	= ./bin
 
 all:	$(NAME)
 
-$(NAME):
-	$(CC) -o $(NAME) $(SRCS) $(LDFLAGS)
+$(NAME):	$(OBJS)
+	$(CC) -o $(NAME) $(OBJS) $(LDFLAGS)
 	@echo -n -e "\E[33;36mCompilation done ! \E[33;39m\n"
 
 clean:

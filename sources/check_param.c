@@ -1,11 +1,11 @@
 /*
-** check_param.c for check_param in /home/fhaiem_r/Rush1
+** check_param.c for  in /home/fhaiem_r/Rush1/sources
 ** 
 ** Made by rachid
 ** Login   <fhaiem_r@epitech.net>
 ** 
-** Started on  Sun Oct 27 15:58:54 2013 rachid
-** Last update Sun Oct 27 17:43:56 2013 rachid
+** Started on  Sun Oct 27 18:42:40 2013 rachid
+** Last update Sun Oct 27 18:42:40 2013 rachid
 */
 
 #include	<stdlib.h>

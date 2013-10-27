@@ -1,11 +1,11 @@
 /*
-** my.h for libmy_fhaiem_r in /home/fhaiem_r/explora
+** my.h for  in /home/fhaiem_r/Rush1/includes
 ** 
 ** Made by rachid
 ** Login   <fhaiem_r@epitech.net>
 ** 
-** Started on  Tue Oct 22 16:54:46 2013 rachid
-** Last update Tue Oct 22 17:37:33 2013 rachid
+** Started on  Sun Oct 27 18:42:15 2013 rachid
+** Last update Sun Oct 27 18:42:16 2013 rachid
 */
 
 #ifndef		_MY2_H_
